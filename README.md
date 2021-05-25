@@ -1,0 +1,1 @@
+A simple PHP wrapper for Pixabay API

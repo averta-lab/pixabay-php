@@ -1,0 +1,28 @@
+{
+    "name": "averta/pixabay-php",
+    "description": "Simple PHP wrapper for Pixabay API.",
+    "keywords": ["toolkit", "averta", "php", "pixabay"],
+    "license": "GPL-3.0-or-later",
+    "homepage": "https://averta.net",
+    "authors": [
+        {
+            "name": "Averta",
+            "homepage": "https://averta.net",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "docs": "https://averta.net"
+    },
+    "require" : {
+        "guzzlehttp/guzzle": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+            "Averta\\Pixabay\\": "src/"
+        }
+    }
+}
